@@ -1,0 +1,1259 @@
+Package: base-files
+Version: 117-r36088
+Depends: libc, netifd
+Provides: 
+Source: package/base-files
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 42221
+Filename: base-files_117-r36088_ar71xx.ipk
+Size: 43035
+MD5Sum: d440dca6945890999fb0546b5a54866a
+Description:  This package contains a base filesystem and system scripts for OpenWrt.
+
+Package: busybox
+Version: 1.19.4-6
+Depends: libc
+Provides: 
+Source: package/busybox
+Section: base
+Status: unknown ok not-installed
+Essential: yes
+Priority: optional
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 236292
+Filename: busybox_1.19.4-6_ar71xx.ipk
+Size: 235062
+MD5Sum: d5956bb44529810a34120da43aba297b
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.
+
+Package: coova-chilli
+Version: 1.2.9-1
+Depends: libc, kmod-tun, librt
+Provides: 
+Source: feeds/packages/net/coova-chilli
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 216521
+Filename: coova-chilli_1.2.9-1_ar71xx.ipk
+Size: 216701
+MD5Sum: 5fffa028685393407c7d45e605849027
+Description:  CoovaChilli is an open source access controller for wireless LAN
+ access points and is based on ChilliSpot. It is used for authenticating
+ users of a wireless (or wired) LAN. It supports web based login (UAM)
+ which is today's standard for public HotSpots and it supports Wireless
+ Protected Access (WPA) which is the standard of the future.
+ Authentication,	authorization and accounting (AAA) is handled by your
+ favorite radius server.
+
+Package: curl
+Version: 7.29.0-1
+Depends: libc, libcurl
+Provides: 
+Source: feeds/packages/libs/curl
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 42486
+Filename: curl_7.29.0-1_ar71xx.ipk
+Size: 43136
+MD5Sum: a65b9de1eb320a37cdca7ca398ea12a4
+Description:  A client-side URL transfer utility
+
+Package: dnsmasq
+Version: 2.62-2
+Depends: libc
+Provides: 
+Source: package/dnsmasq
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 83221
+Filename: dnsmasq_2.62-2_ar71xx.ipk
+Size: 83608
+MD5Sum: 213367b4ccfa0a5239fbab146be99046
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+
+Package: dropbear
+Version: 2011.54-2
+Depends: libc
+Provides: 
+Source: package/dropbear
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 78844
+Filename: dropbear_2011.54-2_ar71xx.ipk
+Size: 79162
+MD5Sum: cc15922c57750d1edf24bebd31b50276
+Description:  A small SSH2 server/client designed for small memory environments.
+
+Package: firewall
+Version: 2-55.1
+Depends: libc, iptables, kmod-ipt-conntrack, kmod-ipt-nat
+Provides: 
+Source: package/firewall
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: all
+Installed-Size: 13042
+Filename: firewall_2-55.1_all.ipk
+Size: 13695
+MD5Sum: 0e4b3f112f506e3acbcdb69f7cb8f6af
+Description:  UCI based firewall for OpenWrt
+
+Package: hotplug2
+Version: 1.0-beta-4
+Depends: libc
+Provides: 
+Source: package/hotplug2
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 14553
+Filename: hotplug2_1.0-beta-4_ar71xx.ipk
+Size: 15133
+MD5Sum: e3fb2f04a6ca3d8765b0b5e7291c554f
+Description:  Hotplug2 is a trivial replacement of some of the UDev functionality
+ in a tiny pack, intended for Linux early userspace: Init RAM FS and InitRD.
+ This is an implementation of Hotplug2-1.0-beta
+
+Package: iptables
+Version: 1.4.10-4
+Depends: libc, kmod-ipt-core, libip4tc, libxtables
+Provides: 
+Source: package/iptables
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 35528
+Filename: iptables_1.4.10-4_ar71xx.ipk
+Size: 36143
+MD5Sum: 03228fbfaf9a2301966a48dcb912f05f
+Description:  IPv4 firewall administration tool.
+ 
+ Matches:
+ - icmp
+ - tcp
+ - udp
+ - comment
+ - limit
+ - mac
+ - multiport
+ 
+ Targets:
+ - ACCEPT
+ - DROP
+ - REJECT
+ - LOG
+ - TCPMSS
+ 
+ Tables:
+ - filter
+ - mangle
+ 
+
+Package: iw
+Version: 3.6-1
+Depends: libc, libnl-tiny
+Provides: 
+Source: package/iw
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 37113
+Filename: iw_3.6-1_ar71xx.ipk
+Size: 37782
+MD5Sum: cecdcf761a71866e5298d7b630fd1041
+Description:  cfg80211 interface configuration utility
+
+Package: jshn
+Version: 2013-01-29-0bc317aa4d9af44806c28ca286d79a8b5a92b2b8
+Depends: libc, libjson
+Provides: 
+Source: package/libubox
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 4990
+Filename: jshn_2013-01-29-0bc317aa4d9af44806c28ca286d79a8b5a92b2b8_ar71xx.ipk
+Size: 5663
+MD5Sum: a4b88339e23ae8bb09422b1e984663d0
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: kmod-ath9k-common
+Version: 3.3.8+2012-09-07-3
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57), kmod-ath
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 111411
+Filename: kmod-ath9k-common_3.3.8+2012-09-07-3_ar71xx.ipk
+Size: 109244
+MD5Sum: 4c15508ba44d2aea2b56c30662a1d2e5
+Description:  Atheros 802.11n wireless devices (common code for ath9k and ath9k_htc)
+
+Package: kmod-ath9k
+Version: 3.3.8+2012-09-07-3
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57), kmod-ath9k-common
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 53682
+Filename: kmod-ath9k_3.3.8+2012-09-07-3_ar71xx.ipk
+Size: 54168
+MD5Sum: 5c07820e0116140e0f44451ff984671c
+Description:  This module adds support for wireless adapters based on
+ Atheros IEEE 802.11n AR5008 and AR9001 family of chipsets.
+
+Package: kmod-ath
+Version: 3.3.8+2012-09-07-3
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57), kmod-mac80211
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 9536
+Filename: kmod-ath_3.3.8+2012-09-07-3_ar71xx.ipk
+Size: 10076
+MD5Sum: 6f69e1deebd34cb1c9316e4a48551bf0
+Description:  This module contains some common parts needed by Atheros Wireless drivers.
+
+Package: kmod-cfg80211
+Version: 3.3.8+2012-09-07-3
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57), iw
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 93139
+Filename: kmod-cfg80211_3.3.8+2012-09-07-3_ar71xx.ipk
+Size: 93561
+MD5Sum: 5961ec03d559433280423e45dd76e52c
+Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
+
+Package: kmod-crypto-aes
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57), kmod-crypto-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 12119
+Filename: kmod-crypto-aes_3.3.8-1_ar71xx.ipk
+Size: 12008
+MD5Sum: b505080cf257f13425a20e091eb1398a
+Description:  AES cipher CryptoAPI module
+
+Package: kmod-crypto-arc4
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57), kmod-crypto-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 1021
+Filename: kmod-crypto-arc4_3.3.8-1_ar71xx.ipk
+Size: 1798
+MD5Sum: 92a2b81dca0752c4541e1b3d815244f0
+Description:  ARC4 (RC4) cipher CryptoAPI module
+
+Package: kmod-crypto-core
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 7593
+Filename: kmod-crypto-core_3.3.8-1_ar71xx.ipk
+Size: 8361
+MD5Sum: 46e69194b70c37dc4714058580beec0d
+Description:  Core CryptoAPI modules
+
+Package: kmod-gpio-button-hotplug
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57)
+Provides: 
+Source: package/gpio-button-hotplug
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 3609
+Filename: kmod-gpio-button-hotplug_3.3.8-1_ar71xx.ipk
+Size: 4346
+MD5Sum: d73b64568167c020a03f48e086071c1d
+Description:  Simple GPIO Button Hotplug driver
+
+Package: kmod-ipt-conntrack
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57), kmod-ipt-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 33481
+Filename: kmod-ipt-conntrack_3.3.8-1_ar71xx.ipk
+Size: 34296
+MD5Sum: 574f8c57cf1973d86271df98501cc8ae
+Description:  Netfilter (IPv4) kernel modules for connection tracking
+ Includes:
+ - conntrack
+ - defrag
+ - iptables_raw
+ - NOTRACK
+ - state
+
+Package: kmod-ipt-core
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 25969
+Filename: kmod-ipt-core_3.3.8-1_ar71xx.ipk
+Size: 26734
+MD5Sum: cbeb51a8e3082626cd5dffa4d1ee770f
+Description:  Netfilter core kernel modules
+ Includes:
+ - comment
+ - limit
+ - LOG
+ - mac
+ - multiport
+ - REJECT
+ - TCPMSS
+
+Package: kmod-ipt-nat
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57), kmod-ipt-core, kmod-ipt-conntrack
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 10129
+Filename: kmod-ipt-nat_3.3.8-1_ar71xx.ipk
+Size: 10924
+MD5Sum: 789d99cdf35b04e5025282795c020daa
+Description:  Netfilter (IPv4) kernel modules for basic NAT targets
+ Includes:
+ - MASQUERADE
+
+Package: kmod-ipt-nathelper
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57), kmod-ipt-core, kmod-ipt-nat
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 7435
+Filename: kmod-ipt-nathelper_3.3.8-1_ar71xx.ipk
+Size: 8288
+MD5Sum: 89b4ff31dccc8e8e2381d484b4dc4c48
+Description:  Default Netfilter (IPv4) Conntrack and NAT helpers
+ Includes:
+ - ftp
+ - irc
+ - tftp
+
+Package: kmod-leds-gpio
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 2075
+Filename: kmod-leds-gpio_3.3.8-1_ar71xx.ipk
+Size: 2853
+MD5Sum: 2f63151799d03861ed597794ebf12653
+Description:  Kernel module for LEDs on GPIO lines
+
+Package: kmod-ledtrig-default-on
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 866
+Filename: kmod-ledtrig-default-on_3.3.8-1_ar71xx.ipk
+Size: 1651
+MD5Sum: 2c8e3777eca447a3e1843cc3dae4e359
+Description:  Kernel module that allows LEDs to be initialised in the ON state.
+
+Package: kmod-ledtrig-netdev
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 3209
+Filename: kmod-ledtrig-netdev_3.3.8-1_ar71xx.ipk
+Size: 3963
+MD5Sum: 15d79b50f6fc747032371457073b9afa
+Description:  Kernel module to drive LEDs based on network activity.
+
+Package: kmod-ledtrig-timer
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 1432
+Filename: kmod-ledtrig-timer_3.3.8-1_ar71xx.ipk
+Size: 2238
+MD5Sum: a5081b17294b9ac5e0c840daa22b652a
+Description:  Kernel module that allows LEDs to be controlled by a programmable timer
+ via sysfs.
+
+Package: kmod-ledtrig-usbdev
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57), kmod-usb-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 2317
+Filename: kmod-ledtrig-usbdev_3.3.8-1_ar71xx.ipk
+Size: 3091
+MD5Sum: 66646ff491e5ba2cd635ed8878660e01
+Description:  Kernel module to drive LEDs based on USB device presence/activity.
+
+Package: kmod-lib-crc-ccitt
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 1378
+Filename: kmod-lib-crc-ccitt_3.3.8-1_ar71xx.ipk
+Size: 2154
+MD5Sum: e086c19519a991fe733f613d98a2e015
+Description:  Kernel module for CRC-CCITT support
+
+Package: kmod-mac80211
+Version: 3.3.8+2012-09-07-3
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57), kmod-crypto-core, kmod-crypto-arc4, kmod-crypto-aes, kmod-cfg80211
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 155100
+Filename: kmod-mac80211_3.3.8+2012-09-07-3_ar71xx.ipk
+Size: 154826
+MD5Sum: 68940cc26c1bae79202323cf4e5024cf
+Description:  Generic IEEE 802.11 Networking Stack (mac80211)
+
+Package: kmod-nls-base
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 3124
+Filename: kmod-nls-base_3.3.8-1_ar71xx.ipk
+Size: 3882
+MD5Sum: f8b8934980610c62bf65fee7a509e516
+Description:  Kernel module for NLS (Native Language Support)
+
+Package: kmod-ppp
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57), kmod-lib-crc-ccitt
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 22472
+Filename: kmod-ppp_3.3.8-1_ar71xx.ipk
+Size: 23168
+MD5Sum: 637ac0a450b4ec01d9e148627b39a8e3
+Description:  Kernel modules for PPP support
+
+Package: kmod-pppoe
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57), kmod-ppp, kmod-pppox
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 6179
+Filename: kmod-pppoe_3.3.8-1_ar71xx.ipk
+Size: 6995
+MD5Sum: e9f6f7eb3160a157b3abb41377c73451
+Description:  Kernel module for PPPoE (PPP over Ethernet) support
+
+Package: kmod-pppox
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57), kmod-ppp
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 1702
+Filename: kmod-pppox_3.3.8-1_ar71xx.ipk
+Size: 2490
+MD5Sum: bf3e9d077a9c78c27657029013eb804b
+Description:  Kernel helper module for PPPoE and PPTP support
+
+Package: kmod-tun
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 8752
+Filename: kmod-tun_3.3.8-1_ar71xx.ipk
+Size: 9541
+MD5Sum: 49fa31973cf3f96f3ab22559fdda2d4f
+Description:  Kernel support for the TUN/TAP tunneling device
+
+Package: kmod-usb-core
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57), kmod-nls-base
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 68891
+Filename: kmod-usb-core_3.3.8-1_ar71xx.ipk
+Size: 69470
+MD5Sum: 709edf231c3096654f135cf79007b059
+Description:  Kernel support for USB
+
+Package: kmod-usb-ohci
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57), kmod-usb-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 12573
+Filename: kmod-usb-ohci_3.3.8-1_ar71xx.ipk
+Size: 13304
+MD5Sum: 713d14c6a53c224117ba381d71f48419
+Description:  Kernel support for USB OHCI controllers
+
+Package: kmod-usb2
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57), kmod-usb-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 24280
+Filename: kmod-usb2_3.3.8-1_ar71xx.ipk
+Size: 24973
+MD5Sum: 238eb91800dec182e0311cb48511c3e7
+Description:  Kernel support for USB2 (EHCI) controllers
+
+Package: kmod-wdt-ath79
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-4152afa9268171b73bd2c2556d979f57)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 2808
+Filename: kmod-wdt-ath79_3.3.8-1_ar71xx.ipk
+Size: 3560
+MD5Sum: d483e0483f1c64bec4834abc192aeb68
+Description:  Kernel module for AR7XXX/AR9XXX watchdog timer.
+
+Package: libblobmsg-json
+Version: 2013-01-29-0bc317aa4d9af44806c28ca286d79a8b5a92b2b8
+Depends: libc, libjson, libubox
+Provides: 
+Source: package/libubox
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 3341
+Filename: libblobmsg-json_2013-01-29-0bc317aa4d9af44806c28ca286d79a8b5a92b2b8_ar71xx.ipk
+Size: 4022
+MD5Sum: adce29fa7c8e42f92aa2f9b73e33f6bc
+Description:  blobmsg <-> json conversion library
+
+Package: libcurl
+Version: 7.29.0-1
+Depends: libc, libopenssl, zlib
+Provides: 
+Source: feeds/packages/libs/curl
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 134311
+Filename: libcurl_7.29.0-1_ar71xx.ipk
+Size: 134707
+MD5Sum: b9868bcb87f686141945de2afe109c36
+Description:  A client-side URL transfer library
+
+Package: libgcc
+Version: 4.6-linaro-1
+Depends: 
+Provides: 
+Source: package/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 31292
+Filename: libgcc_4.6-linaro-1_ar71xx.ipk
+Size: 31853
+MD5Sum: 471da8efce6ca6f81305c8694d7a21ab
+Description:  GCC support library
+
+Package: libip4tc
+Version: 1.4.10-4
+Depends: libc
+Provides: 
+Source: package/iptables
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 9834
+Filename: libip4tc_1.4.10-4_ar71xx.ipk
+Size: 10454
+MD5Sum: c049d9d7fb10a1ea38eb64dabd4d2a6e
+Description:  IPv4 firewall - shared libiptc library
+
+Package: libjson
+Version: 0.9-2
+Depends: libc
+Provides: 
+Source: package/libjson-c
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 9453
+Filename: libjson_0.9-2_ar71xx.ipk
+Size: 10090
+MD5Sum: 467cb82a6654b5479db9b500c3118e6f
+Description:  This package contains a library for javascript object notation backends.
+
+Package: liblzo
+Version: 2.06-1
+Depends: libc
+Provides: 
+Source: feeds/packages/libs/lzo
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 32450
+Filename: liblzo_2.06-1_ar71xx.ipk
+Size: 33160
+MD5Sum: 3596f940453129b2958f7b0bf67ffa46
+Description:  LZO is a data compression library which is suitable for data de-/compression
+ in real-time. This means it favours speed over compression ratio.
+
+Package: libnl-tiny
+Version: 0.1-3
+Depends: libc
+Provides: 
+Source: package/libnl-tiny
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 12746
+Filename: libnl-tiny_0.1-3_ar71xx.ipk
+Size: 13360
+MD5Sum: 8b7f8178a5b918aa8e60afc1a1de3da6
+Description:  This package contains a stripped down version of libnl
+
+Package: libopenssl
+Version: 1.0.1e-1
+Depends: libc, zlib
+Provides: 
+Source: package/openssl
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 635162
+Filename: libopenssl_1.0.1e-1_ar71xx.ipk
+Size: 628908
+MD5Sum: 43aa8f30a859a3b53c1278ef9805b62b
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: libpthread
+Version: 0.9.33.2-1
+Depends: libgcc
+Provides: 
+Source: package/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 30683
+Filename: libpthread_0.9.33.2-1_ar71xx.ipk
+Size: 31302
+MD5Sum: 506546ab2f055b04fe6275ccc19ac035
+Description:  POSIX thread library
+
+Package: librt
+Version: 0.9.33.2-1
+Depends: libpthread
+Provides: 
+Source: package/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 4894
+Filename: librt_0.9.33.2-1_ar71xx.ipk
+Size: 5500
+MD5Sum: 19c6773c20dc0acaff0979980bd78a08
+Description:  POSIX.1b RealTime extension library
+
+Package: libubox
+Version: 2013-01-29-0bc317aa4d9af44806c28ca286d79a8b5a92b2b8
+Depends: libc
+Provides: 
+Source: package/libubox
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 10890
+Filename: libubox_2013-01-29-0bc317aa4d9af44806c28ca286d79a8b5a92b2b8_ar71xx.ipk
+Size: 11537
+MD5Sum: 6c5189d040f73a81506e33635b37f20d
+Description:  Basic utility library
+
+Package: libubus
+Version: 2013-01-13-bf566871bd6a633e4504c60c6fc55b2a97305a50
+Depends: libc, libubox
+Provides: 
+Source: package/ubus
+Section: luci2
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 11315
+Filename: libubus_2013-01-13-bf566871bd6a633e4504c60c6fc55b2a97305a50_ar71xx.ipk
+Size: 11949
+MD5Sum: f0e7d462605c98ddab3fbbd1412e9046
+Description:  OpenWrt RPC client library
+
+Package: libuci
+Version: 2013-01-04.1-1
+Depends: libc
+Provides: 
+Source: package/uci
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 15324
+Filename: libuci_2013-01-04.1-1_ar71xx.ipk
+Size: 15915
+MD5Sum: da1d3875bac00cb9c6089fac770215d0
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libxtables
+Version: 1.4.10-4
+Depends: libc
+Provides: 
+Source: package/iptables
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 9976
+Filename: libxtables_1.4.10-4_ar71xx.ipk
+Size: 10599
+MD5Sum: 4ec734b4d5a3a46ab7e3f5547d42243a
+Description:  IPv4/IPv6 firewall - shared xtables library
+
+Package: mtd
+Version: 18.1
+Depends: libc
+Provides: 
+Source: package/mtd
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 10552
+Filename: mtd_18.1_ar71xx.ipk
+Size: 11205
+MD5Sum: d4e64a4e30136eb5438afd05f7456152
+Description:  This package contains an utility useful to upgrade from other firmware or
+ older OpenWrt releases.
+
+Package: netifd
+Version: 2013-01-29.2-4bb99d4eb462776336928392010b372236ac3c93
+Depends: libc, libuci, libnl-tiny, libubus, ubus, ubusd, jshn
+Provides: 
+Source: package/netifd
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 40641
+Filename: netifd_2013-01-29.2-4bb99d4eb462776336928392010b372236ac3c93_ar71xx.ipk
+Size: 40923
+MD5Sum: ec3ec0299f6e563f3125f71286642e98
+Description:  OpenWrt Network Interface Configuration Daemon
+
+Package: om-watchdog
+Version: 1-1
+Depends: libc
+Provides: 
+Source: package/om-watchdog
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 591
+Filename: om-watchdog_1-1_ar71xx.ipk
+Size: 1231
+MD5Sum: 539f9f807cbb036fcdd1a76bbc19b7d7
+Description:  This package contains the hw watchdog script for the OM1P and OM2P device.
+
+Package: openvpn
+Version: 2.2.2-2
+Depends: libc, kmod-tun, libopenssl, liblzo
+Provides: 
+Source: feeds/packages/net/openvpn
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 137601
+Filename: openvpn_2.2.2-2_ar71xx.ipk
+Size: 136858
+MD5Sum: a00bd6fb8ce5610115558ba81516d4a9
+Description:  Open source VPN solution using SSL
+
+Package: opkg
+Version: 618-3
+Depends: libc
+Provides: 
+Source: package/opkg
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: ar71xx
+Installed-Size: 57019
+Filename: opkg_618-3_ar71xx.ipk
+Size: 57516
+MD5Sum: c91cce00acd56e6f41aee28ec4525fe1
+Description:  Lightweight package management system
+ opkg is the opkg Package Management System, for handling
+ installation and removal of packages on a system. It can
+ recursively follow dependencies and download all packages
+ necessary to install a particular package.
+ 
+ opkg knows how to install both .ipk and .deb packages.
+
+Package: ppp-mod-pppoe
+Version: 2.4.5-8
+Depends: libc, kmod-pppoe
+Provides: 
+Source: package/ppp
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: ar71xx
+Installed-Size: 8492
+Filename: ppp-mod-pppoe_2.4.5-8_ar71xx.ipk
+Size: 9130
+MD5Sum: 4af687f0a1d2affbc32cf28221b8fa42
+Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
+
+Package: ppp
+Version: 2.4.5-8
+Depends: libc, kmod-ppp
+Provides: 
+Source: package/ppp
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: ar71xx
+Installed-Size: 104477
+Filename: ppp_2.4.5-8_ar71xx.ipk
+Size: 104736
+MD5Sum: d884c0357dd9fa1a518efc0cdc9c7795
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
+Package: swconfig
+Version: 10
+Depends: libc, libuci, libnl-tiny
+Provides: 
+Source: package/swconfig
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 7041
+Filename: swconfig_10_ar71xx.ipk
+Size: 7683
+MD5Sum: baf87efdd070cd3bf0db82d952e6532a
+Description:  Switch configuration utility
+
+Package: uboot-envtools
+Version: 2012.04.01-1
+Depends: libc
+Provides: 
+Source: package/uboot-envtools
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 9228
+Filename: uboot-envtools_2012.04.01-1_ar71xx.ipk
+Size: 9883
+MD5Sum: ab5c5cc830f7e328f6409b931c6a7b7d
+Description:  This package includes tools to read and modify U-Boot bootloader environment.
+
+Package: ubus
+Version: 2013-01-13-bf566871bd6a633e4504c60c6fc55b2a97305a50
+Depends: libc, libubus, libblobmsg-json, ubusd
+Provides: 
+Source: package/ubus
+Section: luci2
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 3410
+Filename: ubus_2013-01-13-bf566871bd6a633e4504c60c6fc55b2a97305a50_ar71xx.ipk
+Size: 4085
+MD5Sum: 2056332ec1b0e56ca2501973dc914cc8
+Description:  OpenWrt RPC client utility
+
+Package: ubusd
+Version: 2013-01-13-bf566871bd6a633e4504c60c6fc55b2a97305a50
+Depends: libc, libubox
+Provides: 
+Source: package/ubus
+Section: luci2
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 7386
+Filename: ubusd_2013-01-13-bf566871bd6a633e4504c60c6fc55b2a97305a50_ar71xx.ipk
+Size: 8062
+MD5Sum: 466784eae9edd4c320183d2ac6f19693
+Description:  OpenWrt RPC daemon
+
+Package: uci
+Version: 2013-01-04.1-1
+Depends: libc, libuci
+Provides: 
+Source: package/uci
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 6760
+Filename: uci_2013-01-04.1-1_ar71xx.ipk
+Size: 7443
+MD5Sum: 8f5ad58f9c8fc1311a8a9ed62c92eed0
+Description:  Utility for the Unified Configuration Interface (UCI)
+
+Package: uhttpd
+Version: 2012-10-30-e57bf6d8bfa465a50eea2c30269acdfe751a46fd
+Depends: libc, libubox
+Provides: 
+Source: package/uhttpd
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 18629
+Filename: uhttpd_2012-10-30-e57bf6d8bfa465a50eea2c30269acdfe751a46fd_ar71xx.ipk
+Size: 19307
+MD5Sum: fa787a1231ff56a40112083d5158ef97
+Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
+ support. It is intended as a drop-in replacement for the Busybox
+ HTTP daemon.
+
+Package: unzip
+Version: 5.52-1
+Depends: libc
+Provides: 
+Source: feeds/packages/utils/unzip
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 135965
+Filename: unzip_5.52-1_ar71xx.ipk
+Size: 136701
+MD5Sum: 43dd4b5ac47fde224f1d10403c63cd20
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives 
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option), 
+ this can handle any file produced either by PKZIP, or the corresponding 
+ InfoZIP zip program.
+
+Package: wifimesh
+Version: 1
+Depends: libc, om-watchdog, curl, uhttpd, unzip, coova-chilli, openvpn
+Provides: 
+Source: feeds/packages/net/firmware-WiFiRUSH/wifimesh
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 21282
+Filename: wifimesh_1_ar71xx.ipk
+Size: 22175
+MD5Sum: 843637d46c45e54b624a87451238b06b
+Description:  Auto configuration, dashboard reporting and 802.11s meshing.
+
+Package: wpad-mini
+Version: 20120910-1
+Depends: libc, libnl-tiny
+Provides: 
+Source: package/hostapd
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 181763
+Filename: wpad-mini_20120910-1_ar71xx.ipk
+Size: 182045
+MD5Sum: 9cf8f6acc0f1cda88a546c298dc09ec5
+Description:  This package contains a minimal IEEE 802.1x/WPA Authenticator and Supplicant (WPA-PSK only).
+
+Package: zlib
+Version: 1.2.7-1
+Depends: libc
+Provides: 
+Source: package/zlib
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 39936
+Filename: zlib_1.2.7-1_ar71xx.ipk
+Size: 40568
+MD5Sum: 112c41d18323792e7f550a93dfef9505
+Description:  Library implementing the deflate compression method
+
