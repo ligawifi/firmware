@@ -1,0 +1,41 @@
+Package: coova-chilli
+Version: 1.3.0+20141128-4
+Depends: libc, kmod-tun, librt
+Source: feeds/packages/net/coova-chilli
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Imre Kaloz <kaloz@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 233089
+Filename: coova-chilli_1.3.0+20141128-4_ar71xx.ipk
+Size: 233628
+MD5Sum: 3bad661c704ea7b240fd919165f099e1
+SHA256sum: 9ee8853a6b1e2d0909be0166cb2a7d09335f1911c2d7bde27e594901980a4fb1
+Description:  CoovaChilli is an open source access controller for wireless LAN
+ access points and is based on ChilliSpot. It is used for authenticating
+ users of a wireless (or wired) LAN. It supports web based login (UAM)
+ which is today's standard for public HotSpots and it supports Wireless
+ Protected Access (WPA) which is the standard of the future.
+ Authentication,	authorization and accounting (AAA) is handled by your
+ favorite radius server.
+
+Package: unzip
+Version: 6.0-5
+Depends: libc
+Source: feeds/packages/utils/unzip
+License: BSD-4-Clause
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: ar71xx
+Installed-Size: 99626
+Filename: unzip_6.0-5_ar71xx.ipk
+Size: 100644
+MD5Sum: 8035b7f22e7003b7a548896329aafe51
+SHA256sum: ac22a0f20f272b4d0f48406342620e0f20db7a61b4b7696663ac0cfc6652d09e
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+
